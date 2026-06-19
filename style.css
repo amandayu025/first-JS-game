@@ -3,13 +3,19 @@
     margin: 0;
 }
 #body{
+    justify-content:center;
+    text-align: center;
     width: 100%;
     height: 100%;
-    justify-content:center;
+    
+}
+h1{
+    margin: auto;
+    position: absolute;
 }
 #game{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 500px;
     height: 200px;
     border: 1px solid black;
@@ -48,8 +54,8 @@
     animation: block 1.8s infinite;
 }
 @keyframes block{
-    0%{left:450px;}
-    100%{left:0px}
+    0%{left:482px;}
+    100%{left:-10px}
 }
 #end-page{
     margin: auto;
