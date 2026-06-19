@@ -4,7 +4,6 @@
 }
 #body{
     justify-content:center;
-    
 }
 #game{
     margin: auto;
@@ -44,4 +43,14 @@
 @keyframes block{
     0%{left:450px;}
     100%{left:0px}
+}
+#end-page{
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 100px;
+    background-color: lightpink;
+    text-align: center;
+    padding: 15px;
 }

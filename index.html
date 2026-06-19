@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" onclick="start()">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body onclick="start()">
+    <div id="timer"></div>
+    <div id="best"></div>
     <div id="game">
         <div id="character"></div>
         <div id="block"></div>
@@ -14,7 +16,7 @@
     <div id="end-page">
         <h2>U lost :(</h2>
         <label for="restart"></label>
-        <button id="restart">Restart game</button>
+        <button id="restart" onclick="setgame()">Restart game</button>
     </div>
 </body>
 <script src="script.js"></script>
