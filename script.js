@@ -41,7 +41,7 @@ function setgame(){
 var checkTouch = setInterval(function(){
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     var blockLeft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-    if(blockLeft < 120 && blockLeft > 100 && characterTop >= 130){
+    if(blockLeft < 132 && blockLeft > 100 && characterTop >= 120){
         document.body.removeEventListener("click",start);
         game.style.display = "none";
         end.style.display = "block";
