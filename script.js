@@ -4,6 +4,7 @@ var end = document.getElementById("end-page");
 var game = document.getElementById("game");
 var timer = document.getElementById("timer");
 var best = document.getElementById("best");
+var message = document.getElementById("message");
 
 end.style.display = "none";
 block.style.display = "none";
@@ -25,6 +26,7 @@ function start(){
             block.classList.add("moving");
         },1500);
         cont=1;
+        message.style.display = "none";
     }
     jump();
 }

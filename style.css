@@ -83,3 +83,8 @@ button{
     padding: 5px;
     background-color: rgb(255, 224, 229);
 }
+#message{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 40px;
+}
