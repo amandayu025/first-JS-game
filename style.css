@@ -54,7 +54,7 @@ h1{
     transform: scale(0.8);
 }
 .moving{
-    animation: block 1.8s infinite;
+    animation: block 2.4s infinite;
 }
 @keyframes block{
     0%{left:482px;}

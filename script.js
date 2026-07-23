@@ -35,7 +35,7 @@ function setgame(){
     end.style.display = "none";
     game.style.display = "block";
     block.style.left = '480px';
-    block.style.animationDuration = '1.8s';
+    block.style.animationDuration = '2.4s';
     cont=0;
     lost=0;
     document.body.addEventListener("click",start());
